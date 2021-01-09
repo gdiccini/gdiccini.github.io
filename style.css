@@ -5,16 +5,16 @@
 }
 
 body {
-  font-size: 20px;
+  color: white;
+  font-size: 17px;
   background-image: url('background_body.jpg');
   background-size: cover;
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 header {
-  color: white;
   background-color: black;
-  padding: 20px;
+  padding: 15px;
   opacity: 0.7;
 }
 
@@ -24,6 +24,10 @@ header div {
   display: flex;
   justify-content: space-between;
   width: 85%;
+}
+
+header p {
+  font-size: 20px;
 }
 
 header ul {
@@ -40,4 +44,34 @@ header ul li {
 header a:link, header a:visited, header a:visited {
   color: inherit;
   text-decoration: none;
+}
+
+section {
+  width: 70%;
+  padding: 50px 100px;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: black;
+  opacity: 0.7;
+}
+
+section div h1{
+  margin-bottom: 20px;
+}
+ 
+section div p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.social-media {  
+  width: 40%;
+  margin: 30px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media img {
+  width: 64px;
 }
